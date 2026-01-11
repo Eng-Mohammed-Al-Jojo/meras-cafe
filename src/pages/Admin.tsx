@@ -384,7 +384,7 @@ const addCategory = async () => {
 
       <div className="w-full max-w-7xl px-8 sm:px-8 md:px-24">
         <div className="flex justify-between items-center mb-6 flex-wrap">
-          <h1 className="text-2xl font-bold text-white">لوحة تحكم الأدمن</h1>
+          <h1 className="text-2xl font-bold text-white">لوحة تحكم ميراس</h1>
           <div className="flex gap-2">
             <button
               onClick={exportToExcel}

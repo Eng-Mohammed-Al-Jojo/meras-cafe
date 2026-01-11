@@ -36,7 +36,7 @@ const ItemSection: React.FC<Props> = ({ categories, items, setPopup }) => {
   };
 
   return (
-    <div className="bg-white p-4 rounded-3xl border-2" style={{ borderColor: "#d60208" }}>
+    <div className="bg-white p-4 rounded-3xl border-2" style={{ borderColor: "#596188" }}>
       <h2 className="font-bold mb-3 text-xl">المنتجات</h2>
 
     
@@ -65,19 +65,19 @@ const ItemSection: React.FC<Props> = ({ categories, items, setPopup }) => {
           value={itemPrice}
           onChange={(e) => setItemPrice(e.target.value)}
         />
-        <button
-          onClick={addItem}
-          className="flex-4 py-2 rounded-xl font-bold bg-[#d60208] grow text-white
-           hover:text-black hover:bg-[#d22e34] hover:shadow-sm hover:shadow-red-400 hover:cursor-pointer"
-        >
-          إضافة المنتج
-          
-        </button>
+       <button
+        onClick={addItem}
+        className="flex-1 py-2 px-4 rounded-xl font-bold bg-[#596188] text-white
+                  hover:bg-[#A0A5B2] hover:text-[#596188] hover:shadow-md hover:shadow-[#596188]/30
+                  transition-all duration-200 cursor-pointer"
+      >
+        إضافة المنتج
+      </button>
       </div>
 
       <div className="space-y-2">
 
-      <div className="bg-white p-4 rounded-3xl border-2" style={{ borderColor: "#d60208" }}>
+      <div className="bg-white p-4 rounded-3xl border-2" style={{ borderColor: "#596188" }}>
       <h2 className="font-bold mb-3">المنتجات</h2>
           {/* QUICK SEARCH */}
       <input

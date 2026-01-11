@@ -17,7 +17,7 @@ const CategorySection: React.FC<Props> = ({
   setNewCategoryName,
 }) => {
   return (
-    <div className="bg-white p-4 rounded-3xl mb-6 border-2" style={{ borderColor: "#d60208" }}>
+    <div className="bg-white p-4 rounded-3xl mb-6 border-2" style={{ borderColor: "#596188" }}>
       <h2 className="font-bold mb-3 text-xl">الأقسام</h2>
       <div className="flex gap-2 flex-wrap mb-4">
         <input
